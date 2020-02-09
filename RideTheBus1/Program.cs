@@ -29,7 +29,7 @@ namespace RideTheBus
                         Console.WriteLine("Incorrect.");
                     }
                     break;
-                case "B":       // user guess is BLACK, if currentCard is BLACK then correct.
+                case "B":       // user guess is BLACK, if currentCard is BLACK then correct
                     if (currentCard.cardColor.Equals(Card.Color.BLACK))
                     {
                         roundWon = true;
